@@ -11,11 +11,7 @@ import {
 export default function page() {
   return (
     <>
-      <PageHeader
-        toptext="Our Services"
-        text1="Bespoke Luxury"
-        text2="Services"
-      />
+      <PageHeader toptext="What We Offer" text1="Curated" text2="Experiences" />
       <section className="py-20 bg-background-dark">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="font-display text-3xl md:text-4xl text-white mb-6">

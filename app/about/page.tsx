@@ -5,7 +5,7 @@ import { faAward, faHandshake } from "@fortawesome/free-solid-svg-icons";
 export default function page() {
   return (
     <>
-      <PageHeader />
+      <PageHeader toptext="Who Ww Are" text1="Crafting Your" text2="Legacy" />
       <section className="py-24 bg-background-dark relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row gap-20 items-center">
