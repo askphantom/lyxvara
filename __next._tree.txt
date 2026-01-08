@@ -1,8 +1,0 @@
-:HL["/_next/static/chunks/f7a202a7791fdc65.css","style"]
-:HL["assets/lyxvara-logo-white.png","image"]
-:HL["/assets/hero-bg.webp","image"]
-:HL["assets/service-travel.jpg","image"]
-:HL["assets/service-events.jpg","image"]
-:HL["assets/service-shopping.jpg","image"]
-:HL["assets/service-property.jpg","image"]
-0:{"buildId":"etOLuvlTZSi8gD0hQ14kX","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
