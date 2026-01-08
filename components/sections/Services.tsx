@@ -43,7 +43,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="section-padding bg-charcoal">
+    <section id="services" className="section-padding bg-[#08101f]">
       <div className="container-luxury">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
