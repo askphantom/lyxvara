@@ -5,36 +5,33 @@ import {
   Building2,
   ArrowUpRight,
 } from "lucide-react";
-import serviceTravel from "@/assets/service-travel.jpg";
-import serviceEvents from "@/assets/service-events.jpg";
-import serviceShopping from "@/assets/service-shopping.jpg";
-import serviceProperty from "@/assets/service-property.jpg";
+import Link from "next/link";
 
 const services = [
   {
     icon: Plane,
-    title: "Private Aviation",
+    title: "Luxury Travel & Experiences",
     description:
       "Charter private jets, helicopters, and luxury ground transportation. Experience seamless travel with our exclusive partnerships.",
     image: "assets/service-travel.jpg",
   },
   {
     icon: CalendarHeart,
-    title: "Exclusive Events",
+    title: "VIP Event Access",
     description:
       "Access the most coveted events, private parties, and VIP experiences. From fashion weeks to exclusive galas.",
     image: "assets/service-events.jpg",
   },
   {
     icon: ShoppingBag,
-    title: "Personal Shopping",
+    title: "Daily Lifestyle Management",
     description:
       "Bespoke shopping experiences with access to rare collections, personal stylists, and luxury boutiques worldwide.",
     image: "assets/service-shopping.jpg",
   },
   {
     icon: Building2,
-    title: "Luxury Properties",
+    title: "Private Event Orchestration",
     description:
       "Discover extraordinary villas, penthouses, and estates. Whether for vacation or acquisition, we source the exceptional.",
     image: "assets/service-property.jpg",
@@ -111,13 +108,13 @@ const Services = () => {
             Looking for something specific? Our bespoke services extend far
             beyond this list.
           </p>
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="inline-flex items-center gap-2 text-primary tracking-widest uppercase text-sm hover:gap-4 transition-all duration-300"
           >
             Request Custom Service
             <ArrowUpRight className="w-4 h-4" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

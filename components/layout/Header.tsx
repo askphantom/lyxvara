@@ -57,7 +57,7 @@ const Header = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <img
-              src="assets/lyxvara-logo-white.png"
+              src="/assets/lyxvara-logo-white.png"
               alt="Lyxvara Concierge Logo"
               className="w-36 transition-transform duration-300 group-hover:scale-105"
             />

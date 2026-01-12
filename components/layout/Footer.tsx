@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faFacebook,
-  faXTwitter,
+  faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
@@ -12,25 +12,39 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      "Private Aviation",
-      "Exclusive Events",
-      "Personal Shopping",
-      "Luxury Properties",
+      {
+        label: "Luxury Travels & Experiences",
+        href: "/services/luxury-travels",
+      },
+      { label: "VIP Events and Access", href: "/services/event-access" },
+      {
+        label: "Corporate and Employee Programmes",
+        href: "/services/corporate-programmes",
+      },
+      { label: "Private Events", href: "/services/private-events" },
+      { label: "Lifestyle Management", href: "/services/lifestyle-management" },
     ],
-    company: ["About Us", "Our Story", "Careers", "Press"],
-    support: ["Contact Us", "FAQ", "Privacy Policy", "Terms of Service"],
+    company: [
+      { label: "About Us", href: "/about" },
+      { label: "Our Services", href: "/services" },
+      { label: "Contact", href: "/contact" },
+    ],
+    support: [
+      { label: "Privacy Policy", href: "/privacy-policy" },
+      { label: "Terms of Service", href: "/terms-of-service" },
+    ],
   };
 
   return (
     <footer className="bg-background border-t border-border">
       <div className="container-luxury py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <Link href="#home" className="flex items-center gap-3 group">
                 <img
-                  src="assets/lyxvara-logo-white.png"
+                  src="/assets/lyxvara-logo-white.png"
                   alt="Lyxvara Concierge Logo"
                   className="w-36 transition-transform duration-300 group-hover:scale-105"
                 />
@@ -42,7 +56,8 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <Link
-                href="#"
+                href="http://instagram.com/lyxvaraconcierge"
+                target="_blank"
                 className="w-10 h-10 border border-border hover:border-primary flex items-center justify-center transition-colors group"
               >
                 <FontAwesomeIcon
@@ -52,7 +67,8 @@ const Footer = () => {
               </Link>
 
               <Link
-                href="#"
+                href="http://facebook.com/lyxvaraconcierge"
+                target="_blank"
                 className="w-10 h-10 border border-border hover:border-primary flex items-center justify-center transition-colors group"
               >
                 <FontAwesomeIcon
@@ -61,16 +77,18 @@ const Footer = () => {
                 />
               </Link>
               <Link
-                href="#"
+                href="http://twitter.com/lyxvaraconcierge"
+                target="_blank"
                 className="w-10 h-10 border border-border hover:border-primary flex items-center justify-center transition-colors group"
               >
                 <FontAwesomeIcon
-                  icon={faXTwitter}
+                  icon={faTwitter}
                   className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors"
                 />
               </Link>
               <Link
-                href="#"
+                href="http://linkedin.com/company/lyxvara-concierge"
+                target="_blank"
                 className="w-10 h-10 border border-border hover:border-primary flex items-center justify-center transition-colors group"
               >
                 <FontAwesomeIcon
@@ -88,13 +106,13 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
-                <li key={link}>
-                  <a
-                    href="#services"
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    {link}
-                  </a>
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -107,36 +125,36 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
-                <li key={link}>
-                  <a
-                    href="#about"
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    {link}
-                  </a>
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
 
           {/* Support */}
-          <div>
+          {/* <div>
             <h4 className="text-xs tracking-widest uppercase text-primary mb-6">
               Support
             </h4>
             <ul className="space-y-3">
               {footerLinks.support.map((link) => (
-                <li key={link}>
-                  <a
-                    href="#contact"
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    {link}
-                  </a>
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom Bar */}

@@ -1,5 +1,6 @@
 import { Award, Users, Clock, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const stats = [
   { icon: Award, value: "10+", label: "Years of Excellence" },
@@ -29,7 +30,8 @@ const About = () => {
 
             <h2 className="text-display-sm text-foreground mb-6">
               Redefining{" "}
-              <span className="text-elegant text-primary">Luxury</span> in Lagos
+              <span className="text-elegant text-primary">Luxury</span> in
+              Nigeria
             </h2>
 
             <div className="space-y-6 text-muted-foreground">
@@ -52,7 +54,7 @@ const About = () => {
             </div>
 
             <Button variant="luxury" size="luxury" className="mt-8">
-              Our Story
+              <Link href="/about">Our Story</Link>
             </Button>
           </div>
 

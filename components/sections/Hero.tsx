@@ -1,5 +1,6 @@
 import { ArrowRight, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -39,19 +40,24 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg text-white max-w-xl mb-10 animate-fade-up delay-200">
-            Experience unparalleled concierge services tailored to your every
+            {/* Experience unparalleled concierge services tailored to your every
             desire. From private jet charters to exclusive events, we transform
-            your vision into reality.
+            your vision into reality. */}
+            Lyxvara Concierge curates seamless, bespoke experiences for
+            Nigeria's most discerning individuals and enterprises—mastering your
+            most precious commodity: time.
           </p>
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mb-12 animate-fade-up delay-300">
             <Button variant="luxury" size="luxuryLg" className="group">
-              Explore Services
-              <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+              <Link href="/services" className="flex items-center">
+                Explore Services{" "}
+                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </Button>
             <Button variant="luxuryOutline" size="luxuryLg">
-              Get in Touch
+              <Link href="/contact">Get in Touch</Link>
             </Button>
           </div>
 

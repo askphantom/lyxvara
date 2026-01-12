@@ -6,7 +6,9 @@ import {
   faShoppingBag,
   faHouseChimneyWindow,
   faArrowRight,
+  faGift,
 } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -28,9 +30,9 @@ export default function page() {
       <section className="pb-24 bg-background-dark relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            <a
+            <Link
               className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
-              href="#"
+              href="/services/luxury-travel"
             >
               <div className="h-80 overflow-hidden relative">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all z-10"></div>
@@ -49,7 +51,7 @@ export default function page() {
               </div>
               <div className="p-8 md:p-10 relative">
                 <h3 className="font-display text-3xl text-white mb-4 group-hover:text-primary transition-colors flex items-center justify-between">
-                  Private Aviation
+                  Luxury Travel & Experiences
                 </h3>
                 <p className="text-gray-400 font-light text-sm leading-relaxed mb-8 pr-4">
                   Seamless global mobility. Whether it's a heavy jet for
@@ -63,10 +65,10 @@ export default function page() {
                   <span className="material-icons ml-2 text-sm"></span>
                 </div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
-              href="#"
+              href="/services/event-access"
             >
               <div className="h-80 overflow-hidden relative">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all z-10"></div>
@@ -85,7 +87,7 @@ export default function page() {
               </div>
               <div className="p-8 md:p-10 relative">
                 <h3 className="font-display text-3xl text-white mb-4 group-hover:text-primary transition-colors">
-                  Exclusive Events
+                  VIP Event Access
                 </h3>
                 <p className="text-gray-400 font-light text-sm leading-relaxed mb-8 pr-4">
                   Access the inaccessible. From VIP boxes at major sporting
@@ -98,7 +100,7 @@ export default function page() {
                   <span className="material-icons ml-2 text-sm"></span>
                 </div>
               </div>
-            </a>
+            </Link>
             <a
               className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
               href="#"
@@ -120,7 +122,7 @@ export default function page() {
               </div>
               <div className="p-8 md:p-10 relative">
                 <h3 className="font-display text-3xl text-white mb-4 group-hover:text-primary transition-colors">
-                  Personal Shopping
+                  Daily Lifestyle Management
                 </h3>
                 <p className="text-gray-400 font-light text-sm leading-relaxed mb-8 pr-4">
                   Curating your lifestyle with rare finds. Our stylists source
@@ -134,7 +136,7 @@ export default function page() {
                 </div>
               </div>
             </a>
-            <a
+            <Link
               className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
               href="#"
             >
@@ -155,7 +157,7 @@ export default function page() {
               </div>
               <div className="p-8 md:p-10 relative">
                 <h3 className="font-display text-3xl text-white mb-4 group-hover:text-primary transition-colors">
-                  Luxury Properties
+                  Corporate & Employee Programmes
                 </h3>
                 <p className="text-gray-400 font-light text-sm leading-relaxed mb-8 pr-4">
                   Extraordinary spaces for extraordinary lives. We facilitate
@@ -168,7 +170,42 @@ export default function page() {
                   <span className="material-icons ml-2 text-sm"></span>
                 </div>
               </div>
-            </a>
+            </Link>
+            <Link
+              className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
+              href="#"
+            >
+              <div className="h-80 overflow-hidden relative">
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all z-10"></div>
+                <img
+                  alt="Luxury Properties"
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 grayscale group-hover:grayscale-0"
+                  src="/assets/employee-programmes.png"
+                />
+                <div className="absolute top-6 right-6 z-20 bg-black/30 backdrop-blur-sm p-3 border border-white/10 rounded-full">
+                  <FontAwesomeIcon
+                    icon={faGift}
+                    className=" text-white w-6 h-6"
+                  />
+                  <span className="material-symbols-outlined text-white text-2xl"></span>
+                </div>
+              </div>
+              <div className="p-8 md:p-10 relative">
+                <h3 className="font-display text-3xl text-white mb-4 group-hover:text-primary transition-colors">
+                  Corporate & Employee Programmes
+                </h3>
+                <p className="text-gray-400 font-light text-sm leading-relaxed mb-8 pr-4">
+                  Thoughtfully curated concierge programmes that elevate the
+                  corporate experience—gifting, travel, and exclusive events
+                  designed to reflect your brand's lifestyle and distinction.
+                </p>
+                <div className="flex items-center text-primary text-xs font-bold tracking-widest uppercase group-hover:translate-x-2 transition-transform duration-300">
+                  View Details{" "}
+                  <FontAwesomeIcon icon={faArrowRight} className="ms-5 w-6" />
+                  <span className="material-icons ml-2 text-sm"></span>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
