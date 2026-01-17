@@ -53,7 +53,7 @@ export default function page() {
                       Our Office
                     </h3>
                     <p className="text-gray-400 text-sm font-light">
-                      15 Victoria Island
+                      13, Olosa Street, Victoria Island,
                       <br />
                       Lagos, Nigeria
                     </p>
@@ -74,9 +74,6 @@ export default function page() {
                     <p className="text-gray-400 text-sm font-light mb-1">
                       +234 812 345 6789 (Concierge)
                     </p>
-                    <p className="text-gray-400 text-sm font-light">
-                      +234 800 LYXVARA (Toll Free)
-                    </p>
                   </div>
                 </div>
                 <div className="group flex items-start">
@@ -92,10 +89,7 @@ export default function page() {
                       Email
                     </h3>
                     <p className="text-gray-400 text-sm font-light mb-1">
-                      concierge@lyxvara.com
-                    </p>
-                    <p className="text-gray-400 text-sm font-light">
-                      events@lyxvara.com
+                      services@lyxvaraconcierge.com
                     </p>
                   </div>
                 </div>
