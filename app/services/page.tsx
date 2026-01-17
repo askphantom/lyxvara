@@ -101,9 +101,9 @@ export default function page() {
                 </div>
               </div>
             </Link>
-            <a
+            <Link
               className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
-              href="#"
+              href="/services/lifestyle-management"
             >
               <div className="h-80 overflow-hidden relative">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all z-10"></div>
@@ -135,8 +135,8 @@ export default function page() {
                   <span className="material-icons ml-2 text-sm"></span>
                 </div>
               </div>
-            </a>
-            <Link
+            </Link>
+            {/* <Link
               className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
               href="#"
             >
@@ -170,10 +170,10 @@ export default function page() {
                   <span className="material-icons ml-2 text-sm"></span>
                 </div>
               </div>
-            </Link>
+            </Link> */}
             <Link
               className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
-              href="#"
+              href="/services/corporate-programmes"
             >
               <div className="h-80 overflow-hidden relative">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all z-10"></div>
