@@ -56,7 +56,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <Link
-                href="http://instagram.com/lyxvaraconcierge"
+                href="https://instagram.com/lyxvaraconcierge"
                 target="_blank"
                 className="w-10 h-10 border border-border hover:border-primary flex items-center justify-center transition-colors group"
               >
@@ -67,7 +67,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href="http://facebook.com/lyxvaraconcierge"
+                href="https://facebook.com/lyxvaraconcierge"
                 target="_blank"
                 className="w-10 h-10 border border-border hover:border-primary flex items-center justify-center transition-colors group"
               >
@@ -77,7 +77,7 @@ const Footer = () => {
                 />
               </Link>
               <Link
-                href="http://twitter.com/lyxvaraconcierge"
+                href="https://twitter.com/lyxvaraconcierge"
                 target="_blank"
                 className="w-10 h-10 border border-border hover:border-primary flex items-center justify-center transition-colors group"
               >
@@ -87,7 +87,7 @@ const Footer = () => {
                 />
               </Link>
               <Link
-                href="http://linkedin.com/company/lyxvara-concierge"
+                href="https://linkedin.com/company/lyxvara-concierge"
                 target="_blank"
                 className="w-10 h-10 border border-border hover:border-primary flex items-center justify-center transition-colors group"
               >

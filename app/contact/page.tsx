@@ -8,6 +8,7 @@ import {
 import {
   faFacebook,
   faInstagram,
+  faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
@@ -99,22 +100,40 @@ export default function page() {
                   Follow Us
                 </h4>
                 <div className="flex space-x-4">
-                  <Link href="#">
+                  <Link
+                    href="https://instagram.com/lyxvaraconcierge"
+                    target="_blank"
+                  >
                     <FontAwesomeIcon
                       icon={faInstagram}
                       className="w-6 h-6 bg-white/5 hover:text-primary text-gray-400 flex items-center justify-center transition-all duration-300"
                     />
                   </Link>
 
-                  <Link href="#">
+                  <Link
+                    href="https://facebook.com/lyxvaraconcierge"
+                    target="_blank"
+                  >
                     <FontAwesomeIcon
                       icon={faFacebook}
                       className="w-6 h-6 bg-white/5 hover:text-primary text-gray-400 flex items-center justify-center transition-all duration-300"
                     />
                   </Link>
-                  <Link href="#">
+                  <Link
+                    href="https://twitter.com/lyxvaraconcierge"
+                    target="_blank"
+                  >
                     <FontAwesomeIcon
                       icon={faTwitter}
+                      className="w-6 h-6 bg-white/5 hover:text-primary text-gray-400 flex items-center justify-center transition-all duration-300"
+                    />
+                  </Link>
+                  <Link
+                    href="https://linkedin.com/company/lyxvara-concierge"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
                       className="w-6 h-6 bg-white/5 hover:text-primary text-gray-400 flex items-center justify-center transition-all duration-300"
                     />
                   </Link>

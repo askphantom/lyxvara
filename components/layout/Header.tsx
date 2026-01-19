@@ -118,11 +118,17 @@ const Header = () => {
             </a>
           ))}
           <Link
+            className="bg-primary text-secondary px-10 py-5 text-xs font-bold tracking-widest hover:bg-white transition-all w-full sm:w-auto shadow-[0_0_20px_rgba(207,185,129,0.3)] hover:shadow-[0_0_30px_rgba(207,185,129,0.5)]"
+            href="/contact"
+          >
+            BOOK A CONSULTATION
+          </Link>
+          {/* <Link
             href="/contact"
             className="bg-primary text-primary-foreground border border-primary tracking-widest uppercase hover:bg-transparent hover:text-primary font-medium h-14 px-10 py-4 mt-4 w-full"
           >
             Book Consultation
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>
