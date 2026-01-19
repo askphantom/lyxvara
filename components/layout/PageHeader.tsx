@@ -13,7 +13,7 @@ const PageHeader = ({ toptext, text1, text2 }: PageHeaderProps) => {
     <>
       <section
         id="home"
-        className="relative flex items-center justify-center overflow-hidden bg-charcoal min-h-125"
+        className="relative flex items-center justify-center bg-charcoal min-h-125"
       >
         {/* Background Image */}
         <div className="absolute inset-0">
@@ -27,7 +27,7 @@ const PageHeader = ({ toptext, text1, text2 }: PageHeaderProps) => {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 py-32">
+        <div className="relative z-10 container-luxury py-32 md:py-40">
           <div className="justify-center text-center">
             {/* Subtitle */}
             <div className="flex justify-center items-center gap-4 mb-6 animate-fade-up">
