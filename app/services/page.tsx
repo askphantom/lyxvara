@@ -75,7 +75,7 @@ export default function page() {
                 <img
                   alt="Exclusive Events"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 grayscale group-hover:grayscale-0"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjOPNy3fbumox0p-l3fHUHCrQc8kl3FVePxzKP_XaMe3A4E3Xv9xcJOS1DYKrBjGpJWOJva43kYR26B2IfGMlF89wqXroiZPoEI-FyaqWTvfw4A1cQ9FGGdSuKGIJVKFLIXhe5TjtyMil95ZmuwXKXRw0OiqMDppb3x4wX8qKqtvap0W9SnswVOo7R5SEkUdbICg7vMIXwyruv-bEUccF5OVWynUTJKACawL32au_GA7WqarfRi8k7WkC4N2PXXD-VxDPSl7D_j6op"
+                  src="/assets/wedding.jpg"
                 />
                 <div className="absolute top-6 right-6 z-20 bg-black/30 backdrop-blur-sm p-3 border border-white/10 rounded-full">
                   <FontAwesomeIcon
