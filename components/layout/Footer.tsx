@@ -18,7 +18,7 @@ const Footer = () => {
       },
       { label: "VIP Events and Access", href: "/services/event-access" },
       {
-        label: "Corporate and Employee Programmes",
+        label: "Corporate Employee and Customer programs",
         href: "/services/corporate-programmes",
       },
       { label: "Private Events", href: "/services/private-events" },
@@ -51,8 +51,8 @@ const Footer = () => {
               </Link>
             </div>
             <p className="text-muted-foreground mb-6 max-w-xs">
-              Lagos' premier luxury concierge service, dedicated to transforming
-              your extraordinary visions into reality.
+              Nigeria's premier luxury concierge service, dedicated to
+              transforming your extraordinary visions into reality.
             </p>
             <div className="flex gap-4">
               <Link
