@@ -136,41 +136,7 @@ export default function page() {
                 </div>
               </div>
             </Link>
-            {/* <Link
-              className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
-              href="#"
-            >
-              <div className="h-80 overflow-hidden relative">
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all z-10"></div>
-                <img
-                  alt="Luxury Properties"
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 grayscale group-hover:grayscale-0"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-24aM87pFgYfUGRCVIJOz8qQrAF9jFY1TA55F3njJcK0QH1DZKJCph-5hX31mmpNmLMVDLjYdW9dxBE7qiVM75IhpZS75dAPvqb5UktwTwCZKHVMcU8u-5gaw3LHKB7S2AvH0C9qU4s6BJx2ppeebQD0XflhIzj3lEfLYjeGGbP75oj2DLHk2oqgNrVbkhqFRt7D4fqDVsFlX1hgAglnUq4nA0A3nTGIoAFtP5vdvDK1tUcASE08ENUW_0-JEOTpx-8zrHTwkjvNm"
-                />
-                <div className="absolute top-6 right-6 z-20 bg-black/30 backdrop-blur-sm p-3 border border-white/10 rounded-full">
-                  <FontAwesomeIcon
-                    icon={faHouseChimneyWindow}
-                    className=" text-white w-6 h-6"
-                  />
-                  <span className="material-symbols-outlined text-white text-2xl"></span>
-                </div>
-              </div>
-              <div className="p-8 md:p-10 relative">
-                <h3 className="font-display text-3xl text-white mb-4 group-hover:text-primary transition-colors">
-                  Corporate & Employee Programmes
-                </h3>
-                <p className="text-gray-400 font-light text-sm leading-relaxed mb-8 pr-4">
-                  Extraordinary spaces for extraordinary lives. We facilitate
-                  the acquisition, rental, and management of prime real estate
-                  in Lagos, London, Dubai, and beyond.
-                </p>
-                <div className="flex items-center text-primary text-xs font-bold tracking-widest uppercase group-hover:translate-x-2 transition-transform duration-300">
-                  View Details{" "}
-                  <FontAwesomeIcon icon={faArrowRight} className="ms-5 w-6" />
-                  <span className="material-icons ml-2 text-sm"></span>
-                </div>
-              </div>
-            </Link> */}
+
             <Link
               className="group relative block bg-[#0a182e] border border-white/5 hover:border-primary/50 transition-all duration-500 overflow-hidden"
               href="/services/corporate-programmes"
