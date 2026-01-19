@@ -192,7 +192,7 @@ export default function page() {
               </div>
               <div className="p-8 md:p-10 relative">
                 <h3 className="font-display text-3xl text-white mb-4 group-hover:text-primary transition-colors">
-                  Corporate & Employee Programmes
+                  Corporate Employee and Customer programs
                 </h3>
                 <p className="text-gray-400 font-light text-sm leading-relaxed mb-8 pr-4">
                   Thoughtfully curated concierge programmes that elevate the

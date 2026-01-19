@@ -5,8 +5,8 @@ export default function Page() {
     <>
       <PageHeader
         toptext="What We Offer"
-        text1="Corporate & Employee"
-        text2="Programmes"
+        text1="Corporate Employee and"
+        text2="Customer programs"
       />
       <section className="py-24 bg-background-dark relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
