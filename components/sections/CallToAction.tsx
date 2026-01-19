@@ -26,7 +26,7 @@ export default function CallToAction() {
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
           <Link
             className="bg-primary text-secondary px-10 py-5 text-xs font-bold tracking-widest hover:bg-white transition-all w-full sm:w-auto shadow-[0_0_20px_rgba(207,185,129,0.3)] hover:shadow-[0_0_30px_rgba(207,185,129,0.5)]"
-            href="#"
+            href="/contact"
           >
             BOOK A CONSULTATION
           </Link>

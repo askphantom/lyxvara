@@ -72,7 +72,7 @@ export default function page() {
                       Phone
                     </h3>
                     <p className="text-gray-400 text-sm font-light mb-1">
-                      +234 812 345 6789 (Concierge)
+                      ++234 801 2345 678
                     </p>
                   </div>
                 </div>

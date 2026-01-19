@@ -41,7 +41,7 @@ const Header = () => {
         <div className="flex justify-between items-center text-xs tracking-widest uppercase text-muted-foreground border-b border-border/30 pb-4 mb-4">
           <div className="flex items-center gap-2">
             <Phone className="w-3 h-3 text-primary" />
-            <span>+234 812 345 6789</span>
+            <span>+234 801 2345 678</span>
           </div>
           <div className="hidden md:flex items-center gap-6">
             <span>Lagos, Nigeria</span>
@@ -117,9 +117,12 @@ const Header = () => {
               {link.label}
             </a>
           ))}
-          <Button variant="luxury" size="luxury" className="mt-4 w-full">
+          <Link
+            href="/contact"
+            className="bg-primary text-primary-foreground border border-primary tracking-widest uppercase hover:bg-transparent hover:text-primary font-medium h-14 px-10 py-4 mt-4 w-full"
+          >
             Book Consultation
-          </Button>
+          </Link>
         </div>
       </div>
     </header>
