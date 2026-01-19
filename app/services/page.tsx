@@ -110,7 +110,7 @@ export default function page() {
                 <img
                   alt="Personal Shopping"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 grayscale group-hover:grayscale-0"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaHhSLV49ea65IJj1JEaOMAhMEw1Nb2CoulQP15q9TMTvrqO2cW8iD_HziadKg5dCcxI4kEret0JNT0lfQU_vroPmAn4GF9lBerI3nFi_JHQm1kU7zwU-jQcb60cXcojC-rwlALyFTOg2OjaDDDlcWkBUF1ybgVn91I9rm3oMICpYLOkoFN79lfpLB3l0bBjoRzenGjAaLiYy6XnlR678w3Pr1OufoUZiyhlrlCfsCfVVZzpDiruyzW05Coc_2WyNkLEZuS6uADGyO"
+                  src="/assets/lifestyle.jpg"
                 />
                 <div className="absolute top-6 right-6 z-20 bg-black/30 backdrop-blur-sm p-3 border border-white/10 rounded-full">
                   <FontAwesomeIcon
