@@ -78,13 +78,12 @@ const Header = () => {
 
           {/* CTA & Mobile Menu */}
           <div className="flex items-center gap-4">
-            <Button
-              variant="luxury"
-              size="luxury"
-              className="hidden md:inline-flex"
+            <Link
+              className="bg-primary text-secondary px-10 py-5 text-xs font-bold tracking-widest hover:bg-white transition-all w-full sm:w-auto shadow-[0_0_20px_rgba(207,185,129,0.3)] hover:shadow-[0_0_30px_rgba(207,185,129,0.5)]"
+              href="/contact"
             >
-              Book Consultation
-            </Button>
+              BOOK A CONSULTATION
+            </Link>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="lg:hidden p-2 text-foreground hover:text-primary transition-colors"
