@@ -281,7 +281,7 @@ export default function page() {
               <img
                 alt="Concierge Service"
                 className="relative z-10 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK1IEy6Od4kCHkIqMQ4OTAIxtq80sO8hNtjiN8AUBD6CS-4xgHr1DoXJwa5JGkPSj4a2ZkFVQ5uqXHOppsnkK1ktmgn5pINugpPQdj-Ukruv1CvmD1sSuxAxkoAG4mdfIoLTnljykn1QTSEQPcuZ3mbp4EhZ2t2PPAAPf0VBdNAguGX7E55LGWf7Acm1B-fE5APlhjudV8-WAQbFDrfKWS2Ki0Lt0j0f5rR1mt8CJR7uV5Stoh7TnJVjIbVL_rsiZdBQsQHSYd4j04"
+                src="/assets/lux.jpg"
               />
             </div>
           </div>
