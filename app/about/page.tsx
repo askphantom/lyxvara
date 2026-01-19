@@ -181,12 +181,6 @@ export default function page() {
                   src="/assets/elite.jpg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#08101f] via-transparent to-transparent opacity-60"></div>
-                <div className="absolute bottom-10 left-10 right-10">
-                  <p className="text-white font-display text-xl italic">
-                    "Intimate glimpses into the refined world of Lagos's premier
-                    private members' clubs."
-                  </p>
-                </div>
               </div>
             </div>
           </div>
