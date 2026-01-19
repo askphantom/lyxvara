@@ -41,7 +41,7 @@ const Header = () => {
         <div className="flex justify-between items-center text-xs tracking-widest uppercase text-muted-foreground border-b border-border/30 pb-4 mb-4">
           <div className="flex items-center gap-2">
             <Phone className="w-3 h-3 text-primary" />
-            <span>+234 801 2345 678</span>
+            <span>+234 803 3477 349</span>
           </div>
           <div className="hidden md:flex items-center gap-6">
             <span>Lagos, Nigeria</span>
@@ -79,7 +79,7 @@ const Header = () => {
           {/* CTA & Mobile Menu */}
           <div className="flex items-center gap-4">
             <Link
-              className="bg-primary text-secondary px-10 py-5 text-xs font-bold tracking-widest hover:bg-white transition-all w-full sm:w-auto shadow-[0_0_20px_rgba(207,185,129,0.3)] hover:shadow-[0_0_30px_rgba(207,185,129,0.5)]"
+              className="hidden md:flex bg-primary text-secondary px-10 py-5 text-xs font-bold tracking-widest hover:bg-white transition-all w-full sm:w-auto shadow-[0_0_20px_rgba(207,185,129,0.3)] hover:shadow-[0_0_30px_rgba(207,185,129,0.5)]"
               href="/contact"
             >
               BOOK A CONSULTATION

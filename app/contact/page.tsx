@@ -73,7 +73,7 @@ export default function page() {
                       Phone
                     </h3>
                     <p className="text-gray-400 text-sm font-light mb-1">
-                      ++234 801 2345 678
+                      +234 803 3477 349
                     </p>
                   </div>
                 </div>
