@@ -1,6 +1,14 @@
 import PageHeader from "@/components/layout/PageHeader";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAward, faHandshake, faUserShield, faGlobe, faLock, faStar, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAward,
+  faHandshake,
+  faUserShield,
+  faGlobe,
+  faLock,
+  faStar,
+  faQuoteRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function page() {
   return (
@@ -69,121 +77,218 @@ export default function page() {
         </div>
       </section> */}
       <section className="py-24 bg-background-dark relative overflow-hidden">
-<div className="max-w-7xl mx-auto px-6">
-<div className="flex flex-col lg:flex-row gap-20 items-center">
-<div className="lg:w-1/2 relative">
-<div className="relative z-10 border border-white/10 p-2">
-<img alt="Luxury Concierge Service" className="w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7947jXI05go2E89HbKAeaYOv_BYLkakCsPNgAiMNfXzDkTcBeSb58hHQWEuqJYwww5k_a3RN3iZhj0Yjv2Y-olKGJCUREYMvFSqk_VzdubMdo51eZSuVsE3E4gE55aDyPKX2NDQ87SPIpBYYcMnM9sKPcvzBv673mymoDdfJhnFC4szfkjTItupdw50QGIujUIY7R8Nd37OMYh0bQoAc3kdP93CcJ8XWOpxJZLg-CAjvNsTY3KPx7ETPALBP3-4zRwO9I71u7tDYX"/>
-</div>
-<div className="absolute -bottom-10 -right-10 w-2/3 h-2/3 border border-primary/20 -z-0"></div>
-<div className="absolute -top-10 -left-10 w-2/3 h-2/3 bg-[#0a182e] -z-0"></div>
-</div>
-<div className="lg:w-1/2">
-<div className="flex items-center gap-4 mb-6">
-<div className="w-12 h-[1px] bg-primary"></div>
-<span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">Who We Are</span>
-</div>
-<h2 className="font-display text-4xl md:text-5xl text-white mb-8 leading-tight">
-                    Your Exclusive Gateway to <span className="text-primary italic font-serif">Effortless Luxury</span> in Nigeria and Beyond
-                </h2>
-<p className="text-gray-400 font-light leading-relaxed text-lg mb-8">
-                    At Lyxvara, we master your most precious commodity: time. We don't just provide services; we curate a life of absolute seamlessness, where every desire is anticipated and every logistics hurdle is transformed into a graceful experience.
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col lg:flex-row gap-20 items-center">
+            <div className="lg:w-1/2 relative">
+              <div className="relative z-10 border border-white/10 p-2">
+                <img
+                  alt="Luxury Concierge Service"
+                  className="w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7947jXI05go2E89HbKAeaYOv_BYLkakCsPNgAiMNfXzDkTcBeSb58hHQWEuqJYwww5k_a3RN3iZhj0Yjv2Y-olKGJCUREYMvFSqk_VzdubMdo51eZSuVsE3E4gE55aDyPKX2NDQ87SPIpBYYcMnM9sKPcvzBv673mymoDdfJhnFC4szfkjTItupdw50QGIujUIY7R8Nd37OMYh0bQoAc3kdP93CcJ8XWOpxJZLg-CAjvNsTY3KPx7ETPALBP3-4zRwO9I71u7tDYX"
+                />
+              </div>
+              <div className="absolute -bottom-10 -right-10 w-2/3 h-2/3 border border-primary/20 -z-0"></div>
+              <div className="absolute -top-10 -left-10 w-2/3 h-2/3 bg-[#0a182e] -z-0"></div>
+            </div>
+            <div className="lg:w-1/2">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-[1px] bg-primary"></div>
+                <span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">
+                  Who We Are
+                </span>
+              </div>
+              <h2 className="font-display text-4xl md:text-5xl text-white mb-8 leading-tight">
+                Your Exclusive Gateway to{" "}
+                <span className="text-primary italic font-serif">
+                  Effortless Luxury
+                </span>{" "}
+                in Nigeria and Beyond
+              </h2>
+              <p className="text-gray-400 font-light leading-relaxed text-lg mb-8">
+                At Lyxvara, we master your most precious commodity: time. We
+                don't just provide services; we curate a life of absolute
+                seamlessness, where every desire is anticipated and every
+                logistics hurdle is transformed into a graceful experience.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div className="border-l border-primary/30 pl-6">
+                  <span className="text-primary font-display text-3xl block mb-2">
+                    10+
+                  </span>
+                  <p className="text-gray-500 text-xs uppercase tracking-widest font-semibold">
+                    Years of Excellence
+                  </p>
+                </div>
+                <div className="border-l border-primary/30 pl-6">
+                  <span className="text-primary font-display text-3xl block mb-2">
+                    50+
+                  </span>
+                  <p className="text-gray-500 text-xs uppercase tracking-widest font-semibold">
+                    Global Partners
+                  </p>
+                </div>
+                <div className="border-l border-primary/30 pl-6">
+                  <span className="text-primary font-display text-3xl block mb-2">
+                    500+
+                  </span>
+                  <p className="text-gray-500 text-xs uppercase tracking-widest font-semibold">
+                    Elite Members
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-24 bg-[#08101f]">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-[1px] bg-primary"></div>
+                <span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">
+                  Our Story
+                </span>
+              </div>
+              <h2 className="font-display text-4xl text-white mb-8">
+                Elevating{" "}
+                <span className="italic text-primary">Nigeria’s Elite</span>{" "}
+                Since Inception
+              </h2>
+              <div className="space-y-6 text-gray-400 font-light leading-relaxed">
+                <p>
+                  Lyxvara Concierge was born from a vision to redefine the
+                  meaning of luxury service within West Africa. We recognized
+                  that for the global citizen based in Lagos, the true luxury is
+                  not just access, but the peace of mind that comes with
+                  impeccable execution.
                 </p>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-<div className="border-l border-primary/30 pl-6">
-<span className="text-primary font-display text-3xl block mb-2">10+</span>
-<p className="text-gray-500 text-xs uppercase tracking-widest font-semibold">Years of Excellence</p>
-</div>
-<div className="border-l border-primary/30 pl-6">
-<span className="text-primary font-display text-3xl block mb-2">50+</span>
-<p className="text-gray-500 text-xs uppercase tracking-widest font-semibold">Global Partners</p>
-</div>
-<div className="border-l border-primary/30 pl-6">
-<span className="text-primary font-display text-3xl block mb-2">500+</span>
-<p className="text-gray-500 text-xs uppercase tracking-widest font-semibold">Elite Members</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section className="py-24 bg-[#08101f]">
-<div className="max-w-7xl mx-auto px-6">
-<div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-<div className="order-2 lg:order-1">
-<div className="flex items-center gap-4 mb-6">
-<div className="w-12 h-[1px] bg-primary"></div>
-<span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">Our Story</span>
-</div>
-<h2 className="font-display text-4xl text-white mb-8">Elevating <span className="italic text-primary">Nigeria’s Elite</span> Since Inception</h2>
-<div className="space-y-6 text-gray-400 font-light leading-relaxed">
-<p>
-                        Lyxvara Concierge was born from a vision to redefine the meaning of luxury service within West Africa. We recognized that for the global citizen based in Lagos, the true luxury is not just access, but the peace of mind that comes with impeccable execution.
-                    </p>
-<p>
-                        Our journey has been one of constant refinement, building a bridge between the best of international luxury standards and the profound cultural depth and entrepreneurial spirit that defines Lagos. Today, we stand as the region's premier lifestyle management firm, trusted by leaders, visionaries, and high-net-worth families.
-                    </p>
-</div>
-</div>
-<div className="order-1 lg:order-2">
-<div className="relative p-4 border border-white/5">
-<img alt="Lagos Premier Private Club" className="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaXfBGDWw-eiDcSrlvd1_ijZ68pmPypw_tlzVpQUkPC5V0IA2Uda9ZDpV4xLNbpcUekUpd1Usc5jWYEkFShm1SgJEVO-3yk9keZJStMFkxUgTArPwUVhB7l0x1vDo2w-peXdbp2dVYcXgQC08aTKlJYZbwFwmfTKv1I-BbMeO7YWyG4HTn07c9Kg4-5idPMmj2SXgihEfLFUJfivzDufGtllPql3BxIKZ_crTYq8021YkC38vVSFrdjQ0HWOZUAOGoKYFeIl7MLxOU"/>
-<div className="absolute inset-0 bg-gradient-to-t from-[#08101f] via-transparent to-transparent opacity-60"></div>
-<div className="absolute bottom-10 left-10 right-10">
-<p className="text-white font-display text-xl italic">"Intimate glimpses into the refined world of Lagos's premier private members' clubs."</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section className="py-24 bg-background-dark">
-<div className="max-w-7xl mx-auto px-6">
-<div className="text-center mb-16">
-<span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">The Distinction</span>
-<h2 className="font-display text-4xl text-white mt-4">What Truly <span className="italic text-primary">Sets Lyxvara Apart</span></h2>
-</div>
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-<div className="group bg-[#0c1a30] p-8 border border-white/5 hover:border-primary/30 transition-all">
-<FontAwesomeIcon icon={faUserShield} className="text-primary w-10 mb-6 block" />
-<h3 className="text-white font-display text-xl mb-4">Hyper-Personalized Service</h3>
-<p className="text-gray-400 text-sm leading-relaxed">We don't just know your name; we understand your preferences, anticipate your needs, and curate every detail to your specific taste.</p>
-</div>
-<div className="group bg-[#0c1a30] p-8 border border-white/5 hover:border-primary/30 transition-all">
-<FontAwesomeIcon icon={faGlobe} className="text-primary w-10 mb-6 block" />
+                <p>
+                  Our journey has been one of constant refinement, building a
+                  bridge between the best of international luxury standards and
+                  the profound cultural depth and entrepreneurial spirit that
+                  defines Lagos. Today, we stand as the region's premier
+                  lifestyle management firm, trusted by leaders, visionaries,
+                  and high-net-worth families.
+                </p>
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <div className="relative p-4 border border-white/5">
+                <img
+                  alt="Lagos Premier Private Club"
+                  className="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  src="/assets/elite.jpg"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#08101f] via-transparent to-transparent opacity-60"></div>
+                <div className="absolute bottom-10 left-10 right-10">
+                  <p className="text-white font-display text-xl italic">
+                    "Intimate glimpses into the refined world of Lagos's premier
+                    private members' clubs."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-24 bg-background-dark">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">
+              The Distinction
+            </span>
+            <h2 className="font-display text-4xl text-white mt-4">
+              What Truly{" "}
+              <span className="italic text-primary">Sets Lyxvara Apart</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="group bg-[#0c1a30] p-8 border border-white/5 hover:border-primary/30 transition-all">
+              <FontAwesomeIcon
+                icon={faUserShield}
+                className="text-primary w-10 mb-6 block"
+              />
+              <h3 className="text-white font-display text-xl mb-4">
+                Hyper-Personalized Service
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                We don't just know your name; we understand your preferences,
+                anticipate your needs, and curate every detail to your specific
+                taste.
+              </p>
+            </div>
+            <div className="group bg-[#0c1a30] p-8 border border-white/5 hover:border-primary/30 transition-all">
+              <FontAwesomeIcon
+                icon={faGlobe}
+                className="text-primary w-10 mb-6 block"
+              />
 
-<h3 className="text-white font-display text-xl mb-4">Seamless Local-Global Fusion</h3>
-<p className="text-gray-400 text-sm leading-relaxed">Expert navigation of Nigeria's unique landscape combined with an elite global network of partners across major world capitals.</p>
-</div>
-<div className="group bg-[#0c1a30] p-8 border border-white/5 hover:border-primary/30 transition-all">
-<FontAwesomeIcon icon={faLock} className="text-primary w-8 mb-6 block" />
-<h3 className="text-white font-display text-xl mb-4">Uncompromising Discretion &amp; Security</h3>
-<p className="text-gray-400 text-sm leading-relaxed">Our commitment to your privacy is absolute. We operate with the highest levels of security and confidentiality at every touchpoint.</p>
-</div>
-<div className="group bg-[#0c1a30] p-8 border border-white/5 hover:border-primary/30 transition-all">
-<FontAwesomeIcon icon={faStar} className="text-primary w-10 mb-6 block" />
-<h3 className="text-white font-display text-xl mb-4">24/7 Impeccable Execution</h3>
-<p className="text-gray-400 text-sm leading-relaxed">Excellence never sleeps. Our dedicated lifestyle managers are available around the clock to ensure flawless delivery of any request.</p>
-</div>
-</div>
-</div>
-</section>
-<section className="py-24 bg-[#0c1a30] relative overflow-hidden">
-<div className="max-w-4xl mx-auto px-6 text-center">
-<div className="inline-flex items-center gap-4 mb-8">
-<div className="w-12 h-[1px] bg-primary"></div>
-<span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">Our Promise</span>
-<div className="w-12 h-[1px] bg-primary"></div>
-</div>
-<h2 className="font-display text-4xl md:text-5xl text-white mb-10">Our Commitment <span className="italic text-primary">To You</span></h2>
-<div className="bg-background-dark/50 p-12 border border-white/10 relative">
-<FontAwesomeIcon icon={faQuoteRight} className="absolute top-6 left-6 text-primary/20 w-20" />
-<p className="text-gray-300 text-xl font-light italic leading-relaxed font-display">
-                "Luxury, at its finest, is deeply personal. It is not merely about the objects we acquire, but the experiences that enrich us and the liberation from the mundane. Our commitment is to return time, peace of mind, and extraordinary possibility to your life."
+              <h3 className="text-white font-display text-xl mb-4">
+                Seamless Local-Global Fusion
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Expert navigation of Nigeria's unique landscape combined with an
+                elite global network of partners across major world capitals.
+              </p>
+            </div>
+            <div className="group bg-[#0c1a30] p-8 border border-white/5 hover:border-primary/30 transition-all">
+              <FontAwesomeIcon
+                icon={faLock}
+                className="text-primary w-8 mb-6 block"
+              />
+              <h3 className="text-white font-display text-xl mb-4">
+                Uncompromising Discretion &amp; Security
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Our commitment to your privacy is absolute. We operate with the
+                highest levels of security and confidentiality at every
+                touchpoint.
+              </p>
+            </div>
+            <div className="group bg-[#0c1a30] p-8 border border-white/5 hover:border-primary/30 transition-all">
+              <FontAwesomeIcon
+                icon={faStar}
+                className="text-primary w-10 mb-6 block"
+              />
+              <h3 className="text-white font-display text-xl mb-4">
+                24/7 Impeccable Execution
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Excellence never sleeps. Our dedicated lifestyle managers are
+                available around the clock to ensure flawless delivery of any
+                request.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-24 bg-[#0c1a30] relative overflow-hidden">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <div className="inline-flex items-center gap-4 mb-8">
+            <div className="w-12 h-[1px] bg-primary"></div>
+            <span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">
+              Our Promise
+            </span>
+            <div className="w-12 h-[1px] bg-primary"></div>
+          </div>
+          <h2 className="font-display text-4xl md:text-5xl text-white mb-10">
+            Our Commitment <span className="italic text-primary">To You</span>
+          </h2>
+          <div className="bg-background-dark/50 p-12 border border-white/10 relative">
+            <FontAwesomeIcon
+              icon={faQuoteRight}
+              className="absolute top-6 left-6 text-primary/20 w-20"
+            />
+            <p className="text-gray-300 text-xl font-light italic leading-relaxed font-display">
+              "Luxury, at its finest, is deeply personal. It is not merely about
+              the objects we acquire, but the experiences that enrich us and the
+              liberation from the mundane. Our commitment is to return time,
+              peace of mind, and extraordinary possibility to your life."
             </p>
-</div>
-</div>
-</section>
+          </div>
+        </div>
+      </section>
       {/*<section className="py-24 bg-[#08101f]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
